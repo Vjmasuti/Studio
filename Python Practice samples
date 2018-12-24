@@ -1,0 +1,15 @@
+#printing the current version of python that we are using
+import sys
+print(sys.version)
+
+
+# To print the system date and time
+import datetime # use of datetime package 
+print(datetime.datetime.now())
+
+
+# To accept the radius of the circle and return the area of the circle 
+import math # math contains all mathematical related packages
+radius =  1.1
+area =  math.pi*radius*radius
+print (area)
