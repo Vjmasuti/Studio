@@ -13,3 +13,47 @@ import math # math contains all mathematical related packages
 radius =  1.1
 area =  math.pi*radius*radius
 print (area)
+
+
+# To print the first name, last name and swap their positions 
+# use of split(),join()
+#split() it is to split the given string based on delimitter (',')
+# o/p : Masuti Vijaylaxmi 
+import string
+name = 'vijaylaxmi, masuti'
+first,last = name.split(',')
+# join as list whcih will print the name separating by space. 
+print(' '.join([last,first]))
+
+
+#program which accepts a sequence of comma-separated numbers from user and generate a list and a tuple with those numbers
+# accpets the string as input  
+# directly ask the input to enter 
+num = '1,2,3,4'
+list = num.split(',')
+print(list)
+print(tuple(list))
+
+#accept a filename from the user and print the extension of that.
+Filename = input("enter file name")
+f_extns  = Filename.split(".")
+print("The extension of the file is "+f_extns[1])
+
+''' Write a Python program to display the first and last colors from the following list. Go to the editor
+color_list = ["Red","Green","White" ,"Black"]'''
+color_list = ["Red","Green","White" ,"Black"]
+print("Last color is "+color_list[-1])
+print("First color is "+color_list[-2])
+
+
+#program to display the examination schedule. (extract the date from exam_st_date)
+exam_st_date = '11, 12, 2014'
+date = exam_st_date.split(',')
+print(date)
+after = '/'.join(date)
+print(after)
+
+
+
+
+
