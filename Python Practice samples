@@ -54,6 +54,28 @@ after = '/'.join(date)
 print(after)
 
 
+# program to accept the number and print even or odd based on the number
+import math
+number = int(input("Enter the number to be determined"))
+if number <= 0:
+  print("enter the correct number")
+elif number%4 ==0:
+  print("Multiple of 4")
+elif number% 2==0:
+    print("number enterted is even")
+else:
+  print("number enterted is odd")
+
+#print the elements thar are less than 5
+a = [1,1,2,3,5,8,13,21,34,55,89]
+num = int(input("enter the number"))
+b = []
+for i in a:
+  if i <=  num:
+   b.append(i)
+print(b)
+
+
 
 
 
