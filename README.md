@@ -1,2 +1,1 @@
-# Studio
-this is for develeoping studio
+This repository is for python scripting.
